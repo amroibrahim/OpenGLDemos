@@ -21,7 +21,7 @@ void SettingsGUI::Initialize(SDL_Window* window, SDL_GLContext gl_context, std::
   //ImGui::StyleColorsLight();
 
   ImGui_ImplSDL2_InitForOpenGL(window, gl_context);
-  ImGui_ImplOpenGL3_Init(); 
+  ImGui_ImplOpenGL3_Init();
 }
 
 void SettingsGUI::ProcessEvent(SDL_Event* event)

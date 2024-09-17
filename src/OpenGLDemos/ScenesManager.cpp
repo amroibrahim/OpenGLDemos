@@ -15,8 +15,8 @@ std::string ScenesManager::GetSceneList()
   std::string list;
 
   for (std::map <std::string, pfnCreate>::iterator itr = _scene_lookup.begin();
-    itr != _scene_lookup.end();
-    itr++)
+       itr != _scene_lookup.end();
+       itr++)
   {
     list += itr->first;
     list.push_back('\0');
